@@ -1,0 +1,249 @@
+
+/** start header **/ 
+.navbar{
+    background: linear-gradient(to right,#ff0000 60%, #fff );
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+.navbar ul a{
+    color: #fff !important;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.navbar ul a:hover{
+    color: black !important;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.header img{
+    width: 100%;
+    height: 90vh;
+}
+.header .navbar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+/** end header **/
+
+/** start history **/
+.history{
+    background-color: #333;
+    
+}
+.history a{
+    text-decoration: none;
+}
+.history h1{
+    text-align: center;
+    color: azure;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.history img{
+    width: 100%;
+    height: 70vh;
+    padding-bottom: 10px;
+}
+.history .section1 p , h3{
+    color: azure;
+    display:flex;
+    justify-content:flex-end;
+}
+/** end history **/
+
+/** start news **/ 
+.news{
+    background-color: #333;
+    
+}
+
+.news .carousel-caption h5 , p{
+    color: rgb(0, 0, 1);
+    font-size: 20px;
+    font-weight: bolder;
+   
+}
+.news .carousel-caption  {
+   background-color: #fff;
+   border-radius: 10px;
+}
+/** end news **/ 
+
+/** start cups **/ 
+.cups{
+    background-color: #333;
+    
+}
+ .navs{
+    display: flex;
+    justify-content: space-between;
+}
+.navs h2{
+    margin-top: -10px;
+    margin-right:25px ;
+}
+ .navs a{
+    color: #fff;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.cups .tab-content{
+    text-align: center;
+}
+
+.cups .tab-content img{
+    border-radius: 20px;
+    border: 1px solid grey;
+    margin: 5px 0px;
+   
+}
+.cups .tab-content p {
+    font-size: 14px;
+   color: #fff;
+}
+
+/** end cups **/
+
+/** start parteners **/
+.parteners{
+   
+    background-color: rgba(255, 0, 0, 0.8);
+    margin-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.parteners  .img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top: -45px;
+    right: 47%;
+}
+.parteners  p{
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    right: 49%;
+    color: #fff;
+    font-weight: 400;
+}
+.parteners .tab-content{
+   padding-top: 150px;
+   width: 60%;
+   margin: 0 auto;
+} 
+.parteners .tab-content img{
+    border-radius: 20px;
+    border: 1px solid grey;
+    margin: 5px 0px;
+    
+   
+}
+/** end parteners **/
+
+/** start contact us **/
+.contact .par p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+.contact{
+    background-color: #333;
+}
+.contact .img{
+    margin: 0 auto;
+}
+
+.contact .img a{
+    margin-right: 15px;
+}
+.contact .img img{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+/** end contact us **/
+@media (max-width:500px){
+    .cups .tab-content {
+        text-align: center;
+    }
+    .navs h2{
+       font-size: 14px;
+       margin-top: 5px
+    }
+     .navs a{
+       font-size: 14px;
+    }
+    .parteners .img img{
+       
+        position: absolute;
+        top: -45px;
+        right: 40%;
+       
+    }
+    .parteners  p{
+        
+        position: absolute;
+        top: 100px;
+        right: 48%;
+    }
+       
+}
+
+@media (max-width:500px){
+    .news .carousel-caption h5 , p {
+        
+       font-size: 8px;
+    }
+}
+
+@media (min-width:501px)and (max-width:768px){
+    .news .carousel-caption h5 , p {
+        
+       font-size: 12px;
+    }
+}
+/**************************************** css for page2 ************************/
+.page1{
+    position: relative;
+}
+.page1 .img img{
+    width: 100%;
+}
+
+.page1 .praghraph p{
+    position: absolute;
+    right: 20%;
+    bottom: 10%;
+    color: blue;
+    background-color: #fff;
+    padding: 20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+@media (max-width:500px){
+    
+.page1 .praghraph p{
+   
+    font-size: 80%;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    padding: 5px;
+    }
+}
+
+
